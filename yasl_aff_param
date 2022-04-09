@@ -1,0 +1,7 @@
+#!yasl //recupere les arguments du programme
+
+(1 == ? exit) //Si il n'y a pas d'argument, on quitte
+
+(!) //supprime les premiers arguments
+# //Compte le nombres d'arguments
+#(print "\n" print) //pout chaque argument, on le print + on print un \n

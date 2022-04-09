@@ -1,0 +1,6 @@
+#!yasl //recupere les arguments du programme
+
+#! //supprime tout les arguments
+
+"Hello world\n" //On ajoute la string a notre stack
+print //On print le dernier element ajouter a la liste
