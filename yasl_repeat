@@ -1,1 +1,29 @@
-#!yasl
+#!yasl //recupere les arguments du programme
+
+(1 == ? exit) //Si il n'y a pas d'argument, on quitte
+
+(!) //On supprime argc et le nom du programme
+
+//On stock dans 1 les chiffres et dans 2 l'operateur
+(=:1 0:1 1:-:1 !)
+
+#
+#(
+=:2
+1:=:2
+1:2
+2:-:2
+0:2
+
+(2:%==:3 2:! 2:! 3:? 2:print)
+1:=:2
+1:2
+2:-:2 //=:2 2:+:2
+0:2
+
+(2:%!=:3 2:! 3:? (2:#(2:# #(2:print)) 2:print))
+("\n" print)
+1:1
+1:+:1
+(!)
+)
